@@ -25,7 +25,6 @@ public class Entry
         return $"{_date}|{_promptText}|{_entryText}";
     }
 
-    // Crea un Entry desde una línea del archivo
     public static Entry FromFileFormat(string line)
     {
         string[] parts = line.Split('|');
